@@ -115,14 +115,58 @@ body {
   border-radius: 20px;
 }
 
-.button3 {
+.button-red {
   background-color: transparent;
   color: white;
   border: 2px solid #f44336;
 }
 
-.button3:hover {
+.button-red:hover {
   background-color: #f44336;
+  color: white;
+}
+
+.button-green {
+  background-color: transparent;
+  color: white;
+  border: 2px solid #15c243;
+}
+
+.button-green:hover {
+  background-color: #15c243;
+  color: white;
+}
+
+.button-blue {
+  background-color: transparent;
+  color: white;
+  border: 2px solid #41c1f0;
+}
+
+.button-blue:hover {
+  background-color: #41c1f0;
+  color: white;
+}
+
+.button-gray {
+  background-color: transparent;
+  color: white;
+  border: 2px solid #abb0b8;
+}
+
+.button-gray:hover {
+  background-color: #abb0b8;
+  color: white;
+}
+
+.button-yellow {
+  background-color: transparent;
+  color: white;
+  border: 2px solid #dbdb2a;
+}
+
+.button-yellow:hover {
+  background-color: #dbdb2a;
   color: white;
 }
 
@@ -168,7 +212,7 @@ hr {
   overflow: hidden;
 
   letter-spacing: 2px;
-  animation: typing 5s steps(30, end), blink 0.75s step-end infinite;
+  animation: typing 5s steps(40, end), blink 0.75s step-end infinite;
   white-space: nowrap;
   border-right: 4px solid orange;
   box-sizing: border-box;
