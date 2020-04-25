@@ -1,0 +1,267 @@
+body {
+  color: #40514e;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  font-family: "Dosis", sans-serif;
+}
+.intro {
+  text-align: center;
+
+  margin: 15% 0%;
+}
+.container {
+  position: relative;
+
+  width: 1200px;
+  height: 300px;
+  margin: 20px auto 350px auto;
+}
+
+.container .box {
+  position: relative;
+  width: calc(400px - 25px);
+  height: calc(300px - 30px);
+  float: left;
+  margin: 12px;
+  background: #142850;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.container .box .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #27496d;
+  transition: 0.5s;
+  z-index: 0;
+}
+
+.container .box:hover .icon {
+  top: 20px;
+  left: calc(50% - 40px);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.container .box .icon .big_box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  transition: 0.5s;
+  color: #fff;
+}
+
+.container .box:hover .icon .big_box {
+  font-size: 40px;
+  filter: blur(8px);
+}
+
+.container .box:hover .icon .image {
+  filter: blur(8px);
+}
+
+.container .box .content {
+  position: absolute;
+  top: 65%;
+  height: calc(100% - 100px);
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+.container .box:hover .content {
+  top: 15px;
+}
+
+.container .box .content h2 {
+  margin: 0 0 10px;
+  padding: 0;
+  color: white;
+  font-size: 28px;
+  transition: 0.5s;
+}
+
+.container .box:hover .content h2 {
+  font-size: 30px;
+}
+.container .box .content p {
+  margin: 0;
+  padding: 0;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  color: white;
+  font-weight: 400px;
+  font-size: 20px;
+}
+
+.button {
+  border: none;
+  color: transparent;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.5s;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.button3 {
+  background-color: transparent;
+  color: white;
+  border: 2px solid #f44336;
+}
+
+.button3:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.brief-head {
+  margin-top: 50px;
+  font-size: 32px;
+  text-align: center;
+  padding-bottom: 0px;
+}
+
+.brief-text {
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+hr {
+  margin: 60px auto 80px auto;
+  border-style: dotted none none none;
+  border-width: 5px;
+  width: 5%;
+  color: #979ca3;
+}
+.bottom-container {
+  background-color: #eeeeee;
+  margin-top: 70px;
+  padding: 20px 50px;
+  text-align: center;
+}
+
+.copyright {
+  margin-top: 30px;
+}
+.footer-link {
+  margin: auto 30px;
+}
+
+/* .typewriter {
+  display: inline-block;
+} */
+
+.typewriter-text {
+  display: inline-block;
+  overflow: hidden;
+
+  letter-spacing: 2px;
+  animation: typing 5s steps(30, end), blink 0.75s step-end infinite;
+  white-space: nowrap;
+  border-right: 4px solid orange;
+  box-sizing: border-box;
+}
+
+@keyframes typing {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+.skills {
+  background-color: #eeeeee;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.skill-row {
+  width: 50%;
+  margin: 20px auto 100px auto;
+
+  line-height: 2;
+}
+
+.web-dev-img {
+  width: 20%;
+  margin-left: 30px;
+  float: right;
+}
+
+.game-dev-img {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+.scripting-img {
+  width: 20%;
+  margin-left: 30px;
+  float: right;
+}
+
+.AI-img {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.contact-me {
+  line-height: 3;
+  text-align: center;
+}
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #66bfbf;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #8fd7e6;
+  text-decoration: none;
+}
+
+.scroll-btn {
+  margin-top: 50px;
+  font-size: 2rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.scroll-btn:hover {
+  font-size: 3rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
