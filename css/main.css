@@ -7,8 +7,7 @@ body {
 }
 .intro {
   text-align: center;
-
-  margin: 15% 0%;
+  margin: auto 0%;
 }
 .container {
   position: relative;
@@ -195,7 +194,15 @@ hr {
   padding: 20px 50px;
   text-align: center;
 }
-
+.footer-link {
+  display: inline-block;
+  color: black;
+  font-size: 2rem;
+  transition: 0.3s;
+}
+.footer-link:hover {
+  color: #42a7f5;
+}
 .copyright {
   margin-top: 30px;
 }
