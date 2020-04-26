@@ -4,6 +4,15 @@
     <!--Ryan Loves Ying!-->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Bootstrap CSS-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
     <link
       href="https://fonts.googleapis.com/css?family=Dosis:400,600&display=swap"
       rel="stylesheet"
@@ -82,145 +91,159 @@
       <h2 class="brief-head">My Recent Projects</h2>
       <p class="brief-text">
         Here are some of my projects. Wanna see more? Here's my
-        <a target="_blank" href="resume.pdf">resume</a>
+        <a target="_blank" href="resume_ryan.pdf">resume</a>
       </p>
     </div>
 
     <div class="container">
-      <!--ShopSmart-->
-      <div class="box">
-        <div class="icon">
-          <img class="image big_box" src="img/project_img/shopsmart.png" />
-          <i class="fas big_box fa-piggy-bank"></i>
+      <div class="row">
+        <!--ShopSmart-->
+        <div class="col-lg-4 col-md-6">
+          <div class="box">
+            <div class="icon">
+              <img class="image big_box" src="img/project_img/shopsmart.png" />
+              <i class="fas big_box fa-piggy-bank"></i>
+            </div>
+            <div class="content">
+              <h2>ShopSmart</h2>
+              <p>
+                A chrome extention built to prevent impulse spending on
+                e-commerce sites.
+              </p>
+              <button
+                class="button button-red"
+                onclick="window.open('https://devpost.com/software/starterhacks2020-6ek52v')"
+                target="_blank"
+              >
+                Visit Website
+              </button>
+            </div>
+          </div>
         </div>
-        <div class="content">
-          <h2>ShopSmart</h2>
-          <p>
-            A chrome extention built to prevent impulse spending on e-commerce
-            sites.
-          </p>
-          <button
-            class="button button-red"
-            onclick="window.open('https://devpost.com/software/starterhacks2020-6ek52v')"
-            target="_blank"
-          >
-            Visit Website
-          </button>
-        </div>
-      </div>
-      <!--box-->
+        <!--box-->
 
-      <!--Topdown Zombie Shooter-->
-      <div class="box">
-        <div class="icon">
-          <img class="image big_box" src="img/project_img/zombie.png" />
-          <i class="fas big_box fa-biohazard"></i>
+        <!--Topdown Zombie Shooter-->
+        <div class="col-lg-4 col-md-6">
+          <div class="box">
+            <div class="icon">
+              <img class="image big_box" src="img/project_img/zombie.png" />
+              <i class="fas big_box fa-biohazard"></i>
+            </div>
+            <div class="content">
+              <h2>Topdown Zombie Shooter</h2>
+              <p>
+                A tile-based game in top-down style using Python with the PyGame
+                library
+              </p>
+              <button
+                class="button button-green"
+                onclick="window.open('https://github.com/ryandeng32/pygame-topdown')"
+                target="_blank"
+              >
+                Visit Website
+              </button>
+            </div>
+          </div>
         </div>
-        <div class="content">
-          <h2>Topdown Zombie Shooter</h2>
-          <p>
-            A tile-based game in top-down style using Python with the PyGame
-            library
-          </p>
-          <button
-            class="button button-green"
-            onclick="window.open('https://github.com/ryandeng32/pygame-topdown')"
-            target="_blank"
-          >
-            Visit Website
-          </button>
-        </div>
-      </div>
-      <!--box-->
+        <!--box-->
 
-      <!--Pong-->
-      <div class="box">
-        <div class="icon">
-          <img class="image big_box" src="img/project_img/pong.png" />
-          <i class="fas big_box fa-table-tennis"></i>
+        <!--Pong-->
+        <div class="col-lg-4 col-md-6">
+          <div class="box">
+            <div class="icon">
+              <img class="image big_box" src="img/project_img/pong.png" />
+              <i class="fas big_box fa-table-tennis"></i>
+            </div>
+            <div class="content">
+              <h2>3D Pong</h2>
+              <p>
+                A remake of the classic game Pong in 3D with VPython.
+              </p>
+              <button
+                class="button button-blue"
+                onclick="window.open('https://github.com/ryandeng32/3D_Pong')"
+                target="_blank"
+              >
+                Visit Website
+              </button>
+            </div>
+          </div>
         </div>
-        <div class="content">
-          <h2>3D Pong</h2>
-          <p>
-            A remake of the classic game Pong in 3D with VPython.
-          </p>
-          <button
-            class="button button-blue"
-            onclick="window.open('https://github.com/ryandeng32/3D_Pong')"
-            target="_blank"
-          >
-            Visit Website
-          </button>
-        </div>
-      </div>
-      <!--box-->
+        <!--box-->
 
-      <!--Impossible Platformer-->
-      <div class="box">
-        <div class="icon">
-          <img class="image big_box" src="img/project_img/platformer.png" />
-          <i class="fas big_box fa-gamepad"></i>
+        <!--Impossible Platformer-->
+        <div class="col-lg-4 col-md-6">
+          <div class="box">
+            <div class="icon">
+              <img class="image big_box" src="img/project_img/platformer.png" />
+              <i class="fas big_box fa-gamepad"></i>
+            </div>
+            <div class="content">
+              <h2>Impossible Platformer</h2>
+              <p>
+                A hard 2D platformer game made with Unity and C#.
+              </p>
+              <button
+                class="button button-blue"
+                onclick="window.open('https://github.com/ryandeng32/Impossible-Platformer')"
+                target="_blank"
+              >
+                Visit Website
+              </button>
+            </div>
+          </div>
         </div>
-        <div class="content">
-          <h2>Impossible Platformer</h2>
-          <p>
-            A hard 2D platformer game made with Unity and C#.
-          </p>
-          <button
-            class="button button-blue"
-            onclick="window.open('https://github.com/ryandeng32/Impossible-Platformer')"
-            target="_blank"
-          >
-            Visit Website
-          </button>
-        </div>
-      </div>
-      <!--box-->
+        <!--box-->
 
-      <!--Master RC.-->
-      <div class="box">
-        <div class="icon">
-          <img class="image big_box" src="img/project_img/cube.png" />
-          <i class="fas big_box fa-cube"></i>
+        <!--Master RC.-->
+        <div class="col-lg-4 col-md-6">
+          <div class="box">
+            <div class="icon">
+              <img class="image big_box" src="img/project_img/cube.png" />
+              <i class="fas big_box fa-cube"></i>
+            </div>
+            <div class="content">
+              <h2>Master RC.</h2>
+              <p>
+                A Rubik's cube solving website by incorporating the kociemba
+                library.
+              </p>
+              <button
+                class="button button-gray"
+                onclick="window.open('https://github.com/ryandeng32/Master_RC')"
+                target="_blank"
+              >
+                Visit Website
+              </button>
+            </div>
+          </div>
         </div>
-        <div class="content">
-          <h2>Master RC.</h2>
-          <p>
-            A Rubik's cube solving website by incorporating the kociemba
-            library.
-          </p>
-          <button
-            class="button button-gray"
-            onclick="window.open('https://github.com/ryandeng32/Master_RC')"
-            target="_blank"
-          >
-            Visit Website
-          </button>
-        </div>
-      </div>
-      <!--box-->
+        <!--box-->
 
-      <!--Stock Scraper.-->
-      <div class="box">
-        <div class="icon">
-          <img class="image big_box" src="img/project_img/money.png" />
-          <i class="fas big_box fa-briefcase"></i>
+        <!--Stock Scraper.-->
+        <div class="col-lg-4 col-md-6">
+          <div class="box">
+            <div class="icon">
+              <img class="image big_box" src="img/project_img/money.png" />
+              <i class="fas big_box fa-briefcase"></i>
+            </div>
+            <div class="content">
+              <h2>Stock Scraper.</h2>
+              <p>
+                A webcrawler that returns relevant information on stock website.
+              </p>
+              <button
+                class="button button-yellow"
+                onclick="window.open('https://github.com/ryandeng32/stockCrawl')"
+                target="_blank"
+              >
+                Visit Website
+              </button>
+            </div>
+          </div>
         </div>
-        <div class="content">
-          <h2>Stock Scraper.</h2>
-          <p>
-            A webcrawler that returns relevant information on stock website.
-          </p>
-          <button
-            class="button button-yellow"
-            onclick="window.open('https://github.com/ryandeng32/stockCrawl')"
-            target="_blank"
-          >
-            Visit Website
-          </button>
-        </div>
+        <!--box-->
       </div>
-      <!--box-->
     </div>
 
     <!--container-->
@@ -252,5 +275,23 @@
       ></a>
       <p class="copyright">© 2020 by Ryan Deng.</p>
     </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
