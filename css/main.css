@@ -45,7 +45,7 @@ h3 {
   position: relative;
   /* width: calc(400px - 35px);*/
   width: 100%;
-  height: calc(300px - 30px);
+  height: 17rem;
   float: left;
   padding: 0.5rem;
   margin-bottom: 1rem;
