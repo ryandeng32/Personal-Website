@@ -31,7 +31,7 @@ h3 {
 }
 .intro {
   text-align: center;
-  margin: 15% 0%;
+  padding: 12% 0%;
 }
 /* .container {
   position: relative;
@@ -65,7 +65,8 @@ h3 {
   z-index: 0;
 }
 
-.container .box:hover .icon {
+.container .box:hover .icon,
+.container .box:active .icon {
   top: 20px;
   left: calc(50% - 40px);
   width: 80px;
@@ -83,12 +84,14 @@ h3 {
   color: #fff;
 }
 
-.container .box:hover .icon .big_box {
+.container .box:hover .icon .big_box,
+.container .box:active .icon .big_box {
   font-size: 40px;
   filter: blur(8px);
 }
 
-.container .box:hover .icon .image {
+.container .box:hover .icon .image,
+.container .box:active .icon .image {
   filter: blur(8px);
 }
 
@@ -101,7 +104,8 @@ h3 {
   box-sizing: border-box;
   transition: 0.5s;
 }
-.container .box:hover .content {
+.container .box:hover .content,
+.container .box:active .content {
   top: 15px;
 }
 
@@ -113,9 +117,6 @@ h3 {
   transition: 0.5s;
 }
 
-.container .box:hover .content h2 {
-  font-size: 30px;
-}
 .container .box .content p {
   margin: 0;
   padding: 0;
@@ -236,16 +237,16 @@ hr {
   margin: auto 30px;
 }
 
-/* .typewriter {
+.typewriter {
   display: inline-block;
-} */
+}
 
 .typewriter-text {
   display: inline-block;
   overflow: hidden;
 
   letter-spacing: 2px;
-  animation: typing 5s steps(40, end), blink 0.75s step-end infinite;
+  animation: typing 3s steps(40, end), blink 0.75s step-end infinite;
   white-space: nowrap;
   border-right: 4px solid orange;
   box-sizing: border-box;
