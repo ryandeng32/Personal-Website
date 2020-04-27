@@ -345,10 +345,10 @@ hr {
 }
 @media screen and (max-width: 480px) {
   .city_img {
-    height: 5%;
+    height: 8%;
   }
   .intro {
-    height: 40 rem;
+    height: 20 rem;
   }
 }
 .contact-me {
