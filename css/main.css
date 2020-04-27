@@ -335,6 +335,7 @@ hr {
   text-align: center;
   padding-bottom: 0px;
 }
+
 .city_img {
   display: block;
   width: 100%;
@@ -342,7 +343,11 @@ hr {
   position: absolute;
   bottom: 0px;
 }
-
+@media screen and (max-width: 480px) {
+  .city_img {
+    height: 10%;
+  }
+}
 .contact-me {
   line-height: 3;
   text-align: center;
