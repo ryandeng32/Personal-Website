@@ -32,11 +32,12 @@
     <script type="text/javascript">
       $(document).ready(function () {
         $(window).scroll(function () {
-          if ($(this).scrollTop() > 20) {
+          if ($(this).scrollTop() > 100) {
             $(".chip_img").addClass("visible");
-          } else {
-            $(".chip_img").css({ visibility: "hidden" });
           }
+          // if ($(this).scrollTop() > 300) {
+          //   $(".data_img").addClass("visible");
+          // }
         });
       });
     </script>
@@ -60,10 +61,16 @@
           <i class="fas fa-chevron-down"></i>
         </button>
       </div>
-      <img class="chip_img hidden" src="img/pattern_img/chip.png" />
+      <div class="scroll_images">
+        <img
+          id="next"
+          class="chip_img hidden"
+          src="img/pattern_img/city_big.png"
+        />
+      </div>
     </div>
     <br />
-    <div class="skills" id="next">
+    <div class="skills">
       <div class="brief">
         <h2 class="brief-head">My Skills</h2>
         <p class="brief-text">
